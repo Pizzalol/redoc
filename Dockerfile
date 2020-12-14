@@ -7,7 +7,7 @@ RUN npm run-script build
 
 # Stage 2 - the production environment
 FROM nginx:alpine
-LABEL name "redoc"
+LABEL name "pizzalol-redoc"
 LABEL maintainer "volbrene"
 
 ENV URLS="[{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop'},{url: 'https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml', name: 'Instagram'}]"
