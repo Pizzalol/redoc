@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './RedocPage.css';
 import Logo from '../logo.png';
-import { RedocStandalone } from 'redoc';
+import { RedocStandalone } from 'pizzalol-redoc';
 import slugify from 'slugify';
 import { Link } from 'react-router-dom'
 import SelectApi from '../SelectApi/SelectApi';
